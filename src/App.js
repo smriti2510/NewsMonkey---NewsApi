@@ -12,14 +12,14 @@ export default class App extends Component {
         <Router>
         <NavBar/>
         <Routes>
-          <Route path="/" element={< News  key='general' pageSize={9} country="in" category="general"/>}></Route>
-          <Route path="/Business" element={ <News key='business'  pageSize={9} country="in" category="business"/>}></Route>
-          <Route path="/Entertainment" element={<News key='entertainment'  pageSize={9} country="in" category="entertainment"/>}></Route>
-          <Route path="/General" element={ <News key='general'  pageSize={9} country="in" category="general"/>}></Route>
-          <Route path="/Health" element={ <News key='health'  pageSize={9} country="in" category="health"/>}></Route>
-          <Route path="/Science" element={ <News key='science'  pageSize={9} country="in" category="science"/>}></Route>
-          <Route path="/Sports" element={ <News key='sports'  pageSize={9} country="in" category="sports"/>}></Route>
-          <Route path="/Technology" element={ <News  key='technology}>' pageSize={9} country="in" category="technology"/>}></Route>
+          <Route path="/" element={< News  key='General' pageSize={9} country="in" category="General"/>}></Route>
+          <Route path="/Business" element={ <News key='Business'  pageSize={9} country="in" category="Business"/>}></Route>
+          <Route path="/Entertainment" element={<News key='Entertainment'  pageSize={9} country="in" category="Entertainment"/>}></Route>
+          <Route path="/General" element={ <News key='General'  pageSize={9} country="in" category="General"/>}></Route>
+          <Route path="/Health" element={ <News key='Health'  pageSize={9} country="in" category="Health"/>}></Route>
+          <Route path="/Science" element={ <News key='Science'  pageSize={9} country="in" category="Science"/>}></Route>
+          <Route path="/Sports" element={ <News key='Sports'  pageSize={9} country="in" category="Sports"/>}></Route>
+          <Route path="/Technology" element={ <News  key='Technology}>' pageSize={9} country="in" category="Technology"/>}></Route>
 
         </Routes>
         </Router>
@@ -28,4 +28,4 @@ export default class App extends Component {
   }
 }
 
-
+export default App;
