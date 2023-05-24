@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React, { Component,  } from 'react'
 import NavBar from './Components/NavBar';
 import News from './Components/News';
+import React, { useState } from 'react'
 
 
 export default class App extends Component {
