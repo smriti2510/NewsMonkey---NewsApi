@@ -5,6 +5,7 @@ import Spinner from './Spinner';
 import PropTypes from 'prop-types'
 import InfiniteScroll from "react-infinite-scroll-component";
 
+let articles= {};
 const News = (props)=>{
     const [articles, setArticles] = useState([])
     const [loading, setLoading] = useState(true)
@@ -44,7 +45,7 @@ const News = (props)=>{
         setArticles(articles.concat(parsedData.articles))
         setTotalResults(parsedData.totalResults)
       };
- 
+
         return (
             <>
                 <h1 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}>NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
